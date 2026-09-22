@@ -37,7 +37,7 @@
     },
     "item2": {
       "title": "Compact Humanoid Combat Robot",
-      "desc": "A compact humanoid combat robot built around an RK3588 main controller. A wheeled chassis handles locomotion while the joints are driven by servos, and it can be driven three ways: radio controller, keyboard or phone. An onboard tilt sensor detects a fallen posture and triggers self-righting, the camera on top recognizes tag codes to fire the matching action, and the entire task flow is orchestrated by a state machine.",
+      "desc": "A compact humanoid combat robot built around an RK3588 main controller. A wheeled chassis handles locomotion while the joints are driven by servos, and it can be driven three ways: web, keyboard or phone. An onboard tilt sensor detects a fallen posture and triggers self-righting, the camera on top recognizes tag codes to fire the matching action, and the entire task flow is orchestrated by a state machine.",
       "tags": ["RK3588", "Wheeled Robot", "Servo Joints", "State Machine", "Vision Tag"]
     }
   },

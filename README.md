@@ -85,11 +85,19 @@ http-server -p 8080
 
 ### 2. 部署上线
 
-#### 方式1：GitHub Pages（推荐）
+#### 方式1：GitHub Pages（本站当前采用）
 
-1. 推送到名为 `Dichen33.github.io` 的仓库；
-2. 仓库 → Settings → Pages → 选择 `main` 分支 → 保存；
-3. 等待几分钟后访问 `https://dichen33.github.io`。
+本仓库已配置好自动部署，**不需要手动在 Settings 里选分支**：
+
+1. 推送到 `master` 分支；
+2. GitHub Actions 会自动执行 `.github/workflows/deploy.yml`
+   （`upload-pages-artifact` 上传仓库根目录 → `deploy-pages` 发布）；
+3. 等 Actions 跑完（约 1 分钟）后访问 `https://dichen33.github.io`。
+
+> 仓库 Settings → Pages 的 Source 需保持为 **GitHub Actions**。
+> 工作流用 `path: .` 上传整个根目录，`upload-pages-artifact` 会自动排除
+> `.git` 与 `.github`，因此无需 `.nojekyll`。
+> 本地预览：`npx serve .`（或任意静态服务器，注意 `.wasm` 需以 `application/wasm` 返回）。
 
 #### 方式2：Nginx
 
@@ -203,7 +211,9 @@ Dichen33.github.io/
 - [x] `playground/` 已替换为本人 16DOF 轮足机器人（RC_WheelLeg）试玩区：
       两个 ONNX 策略（`model_6800` 行走越障 / `model_84` 高墙）、53 维观测 / 16 维动作，
       接口对齐实机部署契约；机器人为 17 个量化压缩网格（40.45MB → 6.90MB）。
-- [ ] 电赛省级二等奖的获奖归属需要核对（页面自我介绍当前不展示奖项，仅时间轴有记录）。
-- [ ] `assets/images/` 下有若干张从上游站点带来的封面图未被引用（约 14MB），可以清理。
-- [ ] 站点默认语言当前为英文，是否需要改成中文待定。
+- [x] 电赛省级二等奖归属已核对：确为「2026 全国大学生电子设计竞赛（TI 杯）省赛」
+      H 题车载平衡滚球运动控制系统，`timeline.event1` 文案保持原样。
+- [x] `assets/images/` 下从上游站点带来的未引用封面图（19 张、约 14MB）已清理，
+      仅保留实际引用的 `Avatar.jpg`、`hti-ball-cover.jpg`、`rc-wheelleg-cover.jpg`。
+- [x] 站点默认语言维持英文（`assets/js/i18n.js` 中 `'en'`），按需求不做改动。
 - [ ] 更多项目、实习 / 竞赛经历的时间轴节点待补充。

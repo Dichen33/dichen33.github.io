@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "首页",
+    "projects": "项目",
+    "timeline": "时间轴",
+    "skills": "技术栈",
+    "contact": "联系我"
+  },
+  "intro": {
+    "avatarAlt": "Dichen 的头像",
+    "title": "你好，我是 Dichen",
+    "desc": "本科大三在读，机器人开发爱好者<br>擅长上位机与下位机的开发<br>深入学习运控、强化学习及机器人感知技术"
+  },
+  "projects": {
+    "title": "项目合集",
+    "imgAlt": "项目图片",
+    "links": {
+      "code": "代码仓库",
+      "docs": "在线文档",
+      "demo": "演示视频",
+      "website": "项目网站",
+      "upstream": "战队主仓库",
+      "control": "控制",
+      "firmware": "固件开源",
+      "mechanical": "机械开源",
+      "vision": "视觉开源"
+    },
+    "item0": {
+      "title": "RC_WheelLeg 16DOF 串联轮足机器人",
+      "desc": "山东华宇工学院 HYNova 战队开源轮足机器人项目，参赛 ROBOCON 仿生足式障碍赛获全国一等奖（第 7 名，前 5%）。平台为 16DOF 串联轮足：4 条轮腿各含 3 个腿部关节与 1 个驱动轮，共 16 个 RS02 执行器，运行在 Jetson Orin Nano 8G 上。技术路线为强化学习训练 → MuJoCo 仿真 → Sim2Sim 验证 → Python Sim2Real 真机部署，从 8DOF 基础版迭代到 16DOF 实机验证版；开源整机机械（SolidWorks / STEP）、硬件、固件、BOM、装配资料与第一代 mjlab 训练任务。",
+      "tags": ["Wheel-Legged Robot", "Reinforcement Learning", "Sim2Real", "MuJoCo", "Jetson Orin"]
+    },
+    "item1": {
+      "title": "2026 电赛 H 题 · 车载平衡滚球运动控制系统",
+      "desc": "2026 年全国大学生电子设计竞赛（TI 杯）省赛 H 题作品的完整归档。MaixCAM 视觉端负责识别摆杆凹槽内约 1cm 的钢珠，输出一维位置、速度与置信度，经 UART 二进制帧发往 MSPM0G3507 主控；处理链路为固定管道 ROI → LAB 暗色钢珠候选检测 → 自适应亮度阈值 → 动态跟踪窗口与全管道回退搜索 → 可选 YOLO 低频重捕获 → 分段像素-厘米标定 → Alpha-Beta 位置/速度估计。另含 WebRTC 图传录制台，以及 PC 侧标定生成、串口监听辅助脚本。",
+      "tags": ["Computer Vision", "YOLO", "MaixCAM", "MSPM0G3507", "UART"]
+    }
+  },
+  "timeline": {
+    "title": "经历时间轴",
+    "event1": {
+      "date": "2026.07 - 2026.08",
+      "title": "2026 全国大学生电子设计竞赛（TI 杯）省赛",
+      "desc": "参赛作品为车载平衡滚球运动控制系统，完成 MaixCAM 视觉测量、UART 通信协议与 WebRTC 图传录制全链路的整理归档。获省级二等奖。"
+    },
+    "event2": {
+      "date": "2026",
+      "title": "ROBOCON 仿生足式障碍赛 国家一等奖",
+      "desc": "山东华宇工学院 HYNova 战队，以 16DOF 串联轮足机器人参赛，获全国一等奖、第 7 名（前 5%）。"
+    },
+    "event3": {
+      "date": "2026.08",
+      "title": "开源 RC_WheelLeg 轮足机器人资料",
+      "desc": "把备赛过程中整理的机械、硬件、固件、BOM 与装配资料逐批开源，供起步较晚、正在准备 ROBOCON 的队伍参考。"
+    }
+  },
+  "skills": {
+    "title": "技术栈",
+    "hardware": "结构与硬件设计",
+    "embedded": "嵌入式开发",
+    "robotics": "机器人与仿真",
+    "software": "编程与工具链"
+  },
+  "contact": {
+    "title": "联系我",
+    "github": "代码仓库",
+    "playground": "在线策略体验",
+    "email": "邮箱"
+  },
+  "footer": {
+    "copyright": "© 2026 Dichen | 个人主页"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "gridDiv": 450.0,
+  "meshes": [
+    {
+      "name": "base_link",
+      "file": "meshes/base_link.wlm",
+      "vertices": 35050,
+      "triangles": 75597
+    },
+    {
+      "name": "fl_hip_abduction_Link",
+      "file": "meshes/fl_hip_abduction_Link.wlm",
+      "vertices": 16564,
+      "triangles": 31568
+    },
+    {
+      "name": "fl_hip_pitch_Link",
+      "file": "meshes/fl_hip_pitch_Link.wlm",
+      "vertices": 14773,
+      "triangles": 30785
+    },
+    {
+      "name": "fl_knee_Link",
+      "file": "meshes/fl_knee_Link.wlm",
+      "vertices": 13616,
+      "triangles": 27385
+    },
+    {
+      "name": "fl_wheel_Link",
+      "file": "meshes/fl_wheel_Link.wlm",
+      "vertices": 5479,
+      "triangles": 12970
+    },
+    {
+      "name": "fr_hip_abduction_Link",
+      "file": "meshes/fr_hip_abduction_Link.wlm",
+      "vertices": 16477,
+      "triangles": 31476
+    },
+    {
+      "name": "fr_hip_pitch_Link",
+      "file": "meshes/fr_hip_pitch_Link.wlm",
+      "vertices": 14768,
+      "triangles": 30824
+    },
+    {
+      "name": "fr_knee_Link",
+      "file": "meshes/fr_knee_Link.wlm",
+      "vertices": 13522,
+      "triangles": 27141
+    },
+    {
+      "name": "fr_wheel_Link",
+      "file": "meshes/fr_wheel_Link.wlm",
+      "vertices": 5463,
+      "triangles": 12971
+    },
+    {
+      "name": "rl_hip_abduction_Link",
+      "file": "meshes/rl_hip_abduction_Link.wlm",
+      "vertices": 16551,
+      "triangles": 31587
+    },
+    {
+      "name": "rl_hip_pitch_Link",
+      "file": "meshes/rl_hip_pitch_Link.wlm",
+      "vertices": 14582,
+      "triangles": 30502
+    },
+    {
+      "name": "rl_knee_Link",
+      "file": "meshes/rl_knee_Link.wlm",
+      "vertices": 13440,
+      "triangles": 27061
+    },
+    {
+      "name": "rl_wheel_Link",
+      "file": "meshes/rl_wheel_Link.wlm",
+      "vertices": 5466,
+      "triangles": 12980
+    },
+    {
+      "name": "rr_hip_abduction_Link",
+      "file": "meshes/rr_hip_abduction_Link.wlm",
+      "vertices": 16456,
+      "triangles": 31397
+    },
+    {
+      "name": "rr_hip_pitch_Link",
+      "file": "meshes/rr_hip_pitch_Link.wlm",
+      "vertices": 14606,
+      "triangles": 30563
+    },
+    {
+      "name": "rr_knee_Link",
+      "file": "meshes/rr_knee_Link.wlm",
+      "vertices": 13454,
+      "triangles": 27088
+    },
+    {
+      "name": "rr_wheel_Link",
+      "file": "meshes/rr_wheel_Link.wlm",
+      "vertices": 5467,
+      "triangles": 12980
+    }
+  ]
+}

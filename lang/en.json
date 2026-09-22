@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "skills": "Stack",
+    "contact": "Contact"
+  },
+  "intro": {
+    "avatarAlt": "Dichen's avatar",
+    "title": "Hi, I'm Dichen",
+    "desc": "Junior undergraduate and robotics enthusiast<br>Skilled in both host-side and embedded development<br>Diving deeper into locomotion control, RL and robot perception"
+  },
+  "projects": {
+    "title": "Projects",
+    "imgAlt": "Project image",
+    "links": {
+      "code": "Code",
+      "docs": "Docs",
+      "demo": "Demo",
+      "website": "Website",
+      "upstream": "Team Repo",
+      "control": "Control",
+      "firmware": "Firmware",
+      "mechanical": "Mechanical",
+      "vision": "Vision"
+    },
+    "item0": {
+      "title": "RC_WheelLeg — 16-DOF Serial Wheel-Legged Robot",
+      "desc": "An open-source wheel-legged robot project from the HYNova team at Shandong Huayu University of Technology. Competed in the ROBOCON bionic legged obstacle race and won a national first prize (7th overall, top 5%). The platform is a 16-DOF serial wheel-legged robot: four wheel-legs, each with three leg joints and one drive wheel, 16 RS02 actuators in total, running on a Jetson Orin Nano 8G. The pipeline is RL training → MuJoCo simulation → Sim2Sim validation → Python Sim2Real deployment, evolving from an 8-DOF baseline into the 16-DOF hardware-validated version. The repository opens up the full mechanical design (SolidWorks / STEP), hardware, firmware, BOM, assembly documentation and the first-generation mjlab training tasks.",
+      "tags": ["Wheel-Legged Robot", "Reinforcement Learning", "Sim2Real", "MuJoCo", "Jetson Orin"]
+    },
+    "item1": {
+      "title": "2026 NUEDC Problem H · Vehicle-Mounted Balanced Ball Control",
+      "desc": "A complete archive of our entry for Problem H of the 2026 National Undergraduate Electronic Design Contest (TI Cup) provincial round. The MaixCAM vision node detects the ~1 cm steel ball inside the rod groove and outputs 1-D position, velocity and confidence over a binary UART frame to an MSPM0G3507 MCU. The processing chain runs: fixed-rail ROI → LAB dark-ball candidate detection → adaptive brightness threshold → dynamic tracking window with full-rail fallback search → optional low-frequency YOLO re-acquisition → piecewise pixel-to-centimetre calibration → alpha-beta position/velocity estimation. It also includes a WebRTC video streaming and recording console, plus PC-side calibration generation and serial monitoring scripts.",
+      "tags": ["Computer Vision", "YOLO", "MaixCAM", "MSPM0G3507", "UART"]
+    }
+  },
+  "timeline": {
+    "title": "Timeline",
+    "event1": {
+      "date": "Jul - Aug 2026",
+      "title": "2026 NUEDC (TI Cup) Provincial Round",
+      "desc": "Entered with a vehicle-mounted balanced ball control system, and documented and open-sourced the full MaixCAM vision, UART protocol and WebRTC streaming chain. Provincial second prize."
+    },
+    "event2": {
+      "date": "2026",
+      "title": "ROBOCON Bionic Legged Obstacle Race — National First Prize",
+      "desc": "HYNova team, Shandong Huayu University of Technology, competing with a 16-DOF serial wheel-legged robot. National first prize, 7th overall (top 5%)."
+    },
+    "event3": {
+      "date": "Aug 2026",
+      "title": "Open-sourced RC_WheelLeg",
+      "desc": "Progressively released the mechanical, hardware, firmware, BOM and assembly documentation gathered during the season, as a reference for younger ROBOCON teams."
+    }
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "hardware": "Mechanical & Hardware",
+    "embedded": "Embedded",
+    "robotics": "Robotics & Simulation",
+    "software": "Languages & Toolchain"
+  },
+  "contact": {
+    "title": "Contact",
+    "github": "GitHub",
+    "playground": "Policy Demo",
+    "email": "Email"
+  },
+  "footer": {
+    "copyright": "© 2026 Dichen | Personal Homepage"
+  }
+}

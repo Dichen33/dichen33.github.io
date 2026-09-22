@@ -21,6 +21,13 @@
         { href: 'https://github.com/Dichen33/2026-H-TI', labelKey: 'projects.links.code', icon: 'fab fa-github' },
       ],
     },
+    {
+      img: 'assets/images/humanoid-robot-cover.jpg',
+      titleKey: 'projects.item2.title',
+      descKey: 'projects.item2.desc',
+      tags: ['RK3588', 'Wheeled Robot', 'Servo Joints', 'State Machine', 'Vision Tag'],
+      links: [],
+    },
   ];
 
   const TIMELINE_EVENTS = [

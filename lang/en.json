@@ -34,6 +34,11 @@
       "title": "2026 NUEDC Problem H · Vehicle-Mounted Balanced Ball Control",
       "desc": "A complete archive of our entry for Problem H of the 2026 National Undergraduate Electronic Design Contest (TI Cup) provincial round. The MaixCAM vision node detects the ~1 cm steel ball inside the rod groove and outputs 1-D position, velocity and confidence over a binary UART frame to an MSPM0G3507 MCU. The processing chain runs: fixed-rail ROI → LAB dark-ball candidate detection → adaptive brightness threshold → dynamic tracking window with full-rail fallback search → optional low-frequency YOLO re-acquisition → piecewise pixel-to-centimetre calibration → alpha-beta position/velocity estimation. It also includes a WebRTC video streaming and recording console, plus PC-side calibration generation and serial monitoring scripts.",
       "tags": ["Computer Vision", "YOLO", "MaixCAM", "MSPM0G3507", "UART"]
+    },
+    "item2": {
+      "title": "Compact Humanoid Combat Robot",
+      "desc": "A compact humanoid combat robot built around an RK3588 main controller. A wheeled chassis handles locomotion while the joints are driven by servos, and it can be driven three ways: radio controller, keyboard or phone. An onboard tilt sensor detects a fallen posture and triggers self-righting, the camera on top recognizes tag codes to fire the matching action, and the entire task flow is orchestrated by a state machine.",
+      "tags": ["RK3588", "Wheeled Robot", "Servo Joints", "State Machine", "Vision Tag"]
     }
   },
   "timeline": {

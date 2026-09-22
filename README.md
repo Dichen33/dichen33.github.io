@@ -125,9 +125,10 @@ Dichen33.github.io/
 │   │   ├── i18n.js             # 多语言加载与切换
 │   │   └── main.js             # 数据定义 + 内容渲染 + 交互
 │   └── images/
-│       ├── Avatar.jpg          # 头像
+│       ├── Avatar.jpg               # 头像
 │       ├── rc-wheelleg-cover.jpg
-│       └── hti-ball-cover.jpg
+│       ├── hti-ball-cover.jpg
+│       └── humanoid-robot-cover.jpg
 ├── lang/
 │   ├── zh.json                 # 中文文案
 │   └── en.json                 # 英文文案
@@ -214,6 +215,7 @@ Dichen33.github.io/
 - [x] 电赛省级二等奖归属已核对：确为「2026 全国大学生电子设计竞赛（TI 杯）省赛」
       H 题车载平衡滚球运动控制系统，`timeline.event1` 文案保持原样。
 - [x] `assets/images/` 下从上游站点带来的未引用封面图（19 张、约 14MB）已清理，
-      仅保留实际引用的 `Avatar.jpg`、`hti-ball-cover.jpg`、`rc-wheelleg-cover.jpg`。
+      仅保留实际引用的 `Avatar.jpg`、`hti-ball-cover.jpg`、`rc-wheelleg-cover.jpg`
+      与新增的 `humanoid-robot-cover.jpg`。
 - [x] 站点默认语言维持英文（`assets/js/i18n.js` 中 `'en'`），按需求不做改动。
 - [ ] 更多项目、实习 / 竞赛经历的时间轴节点待补充。

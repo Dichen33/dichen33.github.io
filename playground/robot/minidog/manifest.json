@@ -1,0 +1,107 @@
+{
+  "gridDiv": 450.0,
+  "meshes": [
+    {
+      "name": "base_link",
+      "file": "meshes/base_link.wlm",
+      "vertices": 41773,
+      "triangles": 88666
+    },
+    {
+      "name": "FL_hip",
+      "file": "meshes/FL_hip.wlm",
+      "vertices": 5633,
+      "triangles": 11570
+    },
+    {
+      "name": "FL_thigh",
+      "file": "meshes/FL_thigh.wlm",
+      "vertices": 12029,
+      "triangles": 25033
+    },
+    {
+      "name": "FL_calf",
+      "file": "meshes/FL_calf.wlm",
+      "vertices": 4794,
+      "triangles": 9607
+    },
+    {
+      "name": "FL_foot",
+      "file": "meshes/FL_foot.wlm",
+      "vertices": 4058,
+      "triangles": 8117
+    },
+    {
+      "name": "FR_hip",
+      "file": "meshes/FR_hip.wlm",
+      "vertices": 5632,
+      "triangles": 11568
+    },
+    {
+      "name": "FR_thigh",
+      "file": "meshes/FR_thigh.wlm",
+      "vertices": 12029,
+      "triangles": 25072
+    },
+    {
+      "name": "FR_calf",
+      "file": "meshes/FR_calf.wlm",
+      "vertices": 4801,
+      "triangles": 9612
+    },
+    {
+      "name": "FR_foot",
+      "file": "meshes/FR_foot.wlm",
+      "vertices": 4058,
+      "triangles": 8117
+    },
+    {
+      "name": "RL_hip",
+      "file": "meshes/RL_hip.wlm",
+      "vertices": 5632,
+      "triangles": 11568
+    },
+    {
+      "name": "RL_thigh",
+      "file": "meshes/RL_thigh.wlm",
+      "vertices": 12033,
+      "triangles": 25062
+    },
+    {
+      "name": "RL_calf",
+      "file": "meshes/RL_calf.wlm",
+      "vertices": 4794,
+      "triangles": 9616
+    },
+    {
+      "name": "RL_foot",
+      "file": "meshes/RL_foot.wlm",
+      "vertices": 4058,
+      "triangles": 8117
+    },
+    {
+      "name": "RR_hip",
+      "file": "meshes/RR_hip.wlm",
+      "vertices": 5633,
+      "triangles": 11570
+    },
+    {
+      "name": "RR_thigh",
+      "file": "meshes/RR_thigh.wlm",
+      "vertices": 12017,
+      "triangles": 25101
+    },
+    {
+      "name": "RR_calf",
+      "file": "meshes/RR_calf.wlm",
+      "vertices": 4797,
+      "triangles": 9610
+    },
+    {
+      "name": "RR_foot",
+      "file": "meshes/RR_foot.wlm",
+      "vertices": 4058,
+      "triangles": 8117
+    }
+  ]
+}

@@ -29,7 +29,8 @@
       links: [],
     },
     {
-      img: 'assets/images/mjlab-minidog-cover.png',
+      img: 'assets/images/mjlab-minidog-cover.jpg',
+      imageFit: 'cover',
       titleKey: 'projects.item3.title',
       descKey: 'projects.item3.desc',
       tags: ['MuJoCo', 'mjlab', 'Reinforcement Learning', 'Quadruped', 'Inverse Kinematics'],

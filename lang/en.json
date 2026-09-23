@@ -39,6 +39,11 @@
       "title": "Compact Humanoid Combat Robot",
       "desc": "A compact humanoid combat robot built around an RK3588 main controller. A wheeled chassis handles locomotion while the joints are driven by servos, and it can be driven three ways: web, keyboard or phone. An onboard tilt sensor detects a fallen posture and triggers self-righting, a camera added onto the chassis recognizes tag codes to fire the matching action, and the entire task flow is orchestrated by a state machine.",
       "tags": ["RK3588", "Wheeled Robot", "Servo Joints", "State Machine", "Vision Tag"]
+    },
+    "item3": {
+      "title": "mjlab Reinforcement Learning on HighTorque-MiniDog",
+      "desc": "Built around the HighTorque-MiniDog quadruped platform. The work began in MuJoCo, where an IK (inverse kinematics) based simulation first got the robot walking correctly; it then moved to mjlab for reinforcement learning, with the reward and penalty terms designed and tuned by hand. The resulting policy now walks reliably and clears some simple obstacles.",
+      "tags": ["MuJoCo", "mjlab", "Reinforcement Learning", "Quadruped", "Inverse Kinematics"]
     }
   },
   "timeline": {

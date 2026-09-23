@@ -28,6 +28,13 @@
       tags: ['RK3588', 'Wheeled Robot', 'Servo Joints', 'State Machine', 'Vision Tag'],
       links: [],
     },
+    {
+      img: 'assets/images/mjlab-minidog-cover.png',
+      titleKey: 'projects.item3.title',
+      descKey: 'projects.item3.desc',
+      tags: ['MuJoCo', 'mjlab', 'Reinforcement Learning', 'Quadruped', 'Inverse Kinematics'],
+      links: [],
+    },
   ];
 
   const TIMELINE_EVENTS = [

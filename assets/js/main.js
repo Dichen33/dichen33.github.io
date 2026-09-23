@@ -33,7 +33,9 @@
       titleKey: 'projects.item3.title',
       descKey: 'projects.item3.desc',
       tags: ['MuJoCo', 'mjlab', 'Reinforcement Learning', 'Quadruped', 'Inverse Kinematics'],
-      links: [],
+      links: [
+        { href: 'https://github.com/Dichen33/HighTorque-MiniDog', labelKey: 'projects.links.code', icon: 'fab fa-github' },
+      ],
     },
   ];
 
